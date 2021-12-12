@@ -6,6 +6,12 @@ from nltk import word_tokenize
 import multiprocessing
 import os
 
+# Uncomment the following if your ntlk download packages are out of date or
+# you don't have them.
+# nltk.download('popular')
+# nltk.download('punkt')
+# nltk.download('averaged_perceptron_tagger')
+
 # Variables
 movies = dict()
 genres = []
